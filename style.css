@@ -7,14 +7,17 @@
 body {
     background: url(./rm428-0056.jpg) no-repeat center center fixed;
     background-size: cover;
-    font-family:'Nunito', sans-serif;
     min-height: 100vh;
     z-index: 0;
+    font-family: 'Alegreya Sans', sans-serif;
     
 }
 
 header {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: rgb(28, 95, 95);
+    text-shadow: 5px 5px #9e8297;
+    font-family: 'Permanent Marker', cursive;
 }
 
 header, form{
@@ -152,6 +155,8 @@ select {
     position: fixed;
     bottom: 0;
     right: 5%;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px 2px rgb(167, 155, 155), 0 0 1em rgb(179, 179, 190), 0 0 0.2em rgb(162, 162, 170);
 }
 
 a:visited {
