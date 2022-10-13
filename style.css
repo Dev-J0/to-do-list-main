@@ -10,6 +10,7 @@ body {
     font-family:'Nunito', sans-serif;
     min-height: 100vh;
     z-index: 0;
+    
 }
 
 header {
@@ -27,17 +28,18 @@ form input, form button{
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
-    background: white;
+    background: rgba(8, 75, 95, 0.76);
+    color: rgb(207, 187, 190);
 }
 
 form button{
-    color: darkorange;
-    background: white;
+    color: rgba(153, 102, 102, 0.801);
+    background: rgb(80, 79, 76);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 form button:hover{
-    background: darkorange;
+    background: rgb(136, 130, 122);
     color:white;
 }
 
@@ -54,13 +56,14 @@ form button:hover{
 
 .todo {
     margin: 0.5rem;
-    background: white;
-    color: black;
+    background: rgba(8, 75, 95, 0.76);
+    color: rgb(168, 149, 149);
     font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease;
+    font-weight: bolder;
 }
 
 .todo li{
@@ -71,7 +74,7 @@ form button:hover{
 .trashButton, 
 .complete-btn {
     background: rgb(121, 126, 121);
-    color: black;
+    color: rgb(216, 170, 170);
     border: none;
     padding: 1rem;
     cursor: pointer;
@@ -80,7 +83,7 @@ form button:hover{
 }
 
 .complete-btn {
-    background: green;
+    background: rgba(153, 102, 102, 0.801);
 }
 
 .todo-item {
@@ -119,16 +122,20 @@ select{
 }
 
 select {
-    color: darkorange;
-    width: 10rem;
+    color: rgb(204, 182, 182);
+    font-size: 20px;
+    font-weight: bold;
+    width: 13rem;
     cursor: pointer;
     padding: 1rem;
+    background: rgb(121, 120, 117);
+
 }
 
 .select::after{
     content: '\25BC';
     position: absolute;
-    background: darkorange;
+    background: rgb(80, 79, 76);
     top: 0;
     right: 0;
     padding: 1rem;
@@ -137,8 +144,8 @@ select {
 }
 
 .select:hover::after{
-    background: white;
-    color: darkorange;
+    background: rgb(167, 151, 122);
+    color: pink;
 }
 
 .creditContainer {
@@ -151,3 +158,4 @@ a:visited {
     text-decoration: none;
     color: black;
 }
+
