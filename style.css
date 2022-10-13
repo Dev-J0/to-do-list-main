@@ -33,6 +33,7 @@ form input, form button{
     border: none;
     background: rgba(8, 75, 95, 0.76);
     color: rgb(207, 187, 190);
+    box-shadow: 5px 3px 3px rgba(102, 90, 90, 0.753);
 }
 
 form button{
@@ -50,11 +51,13 @@ form button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .todo-list {
     min-width: 30%;
     list-style: none;
+    
 }
 
 .todo {
@@ -67,6 +70,7 @@ form button:hover{
     align-items: center;
     transition: all 0.5s ease;
     font-weight: bolder;
+    
 }
 
 .todo li{
@@ -116,12 +120,14 @@ select{
     appearance: none;
     outline: none;
     border: none;
+    
 }
 
 .select{
     margin: 1rem;
     position: relative;
     overflow: hidden;
+    box-shadow: 5px 3px 3px rgba(99, 94, 94, 0.815);
 }
 
 select {
@@ -132,6 +138,7 @@ select {
     cursor: pointer;
     padding: 1rem;
     background: rgb(121, 120, 117);
+    
 
 }
 
